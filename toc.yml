@@ -1,0 +1,21 @@
+- name: Humanitní
+  items:
+    - name: Společenské vědy
+      href: humanitni/zsv/
+
+- name: Cizojazyčný
+  items:
+    - name: Anglický jazyk
+      href: cizojazycny/anglictina/
+
+- name: Přírodovědný
+  items:
+    - name: Biologie
+      href: prirodovedny/biologie/
+
+- name: Matematicko-fyzikální
+  items:
+    - name: Matematika
+      href: matika/
+    - name: Informatika
+      href: informatika/

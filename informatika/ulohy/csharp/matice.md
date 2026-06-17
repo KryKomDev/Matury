@@ -1,0 +1,151 @@
+# Matice
+
+Nedodělaná úloha :O, takže si ji udělejte prosím sami. Když uděláte PR, tak to rád mergnu.
+
+Zadání: [strana 4](https://maturita.panjohnny.me/ulohy/typove_ulohy.pdf#page=4).
+
+Text: [Matice](/informatika/ulohy/texty/Matice.pdf).
+
+Ztratil jsem energii po implementaci Vektorů a za týden z tohoto maturuju :)))
+
+Rozpracované řešení:
+```csharp
+class Matrix
+{
+    private readonly double[,] _array;
+    public Matrix(int w, int h, double[] nums)
+    {
+        if (nums.Length != w * h)
+        {
+            throw new ArgumentException("You must provide all matrices");
+        }
+        
+        this._array = new  double[w, h];
+
+        for (int iH = 0; iH < h; iH++)
+        {
+            for (int iW = 0; iW < w; iW++)
+            {
+                this._array[iW, iH] = nums[iH * w + iW]; 
+            }
+        }
+    }
+
+    public Matrix(double[,] array)
+    {
+        this._array = array;
+    }
+
+    public int GetWidth()
+    {
+        return this._array.GetLength(0);
+    }
+
+    public int GetHeight()
+    {
+        return this._array.GetLength(1);
+    }
+
+    public double[,] GetArray()
+    {
+        return _array;
+    }
+
+    public double GetNum(int x, int y)
+    {
+        return this._array[x, y];
+    }
+
+    public double GetNumOrDefault(int x, int y, double defaultValue)
+    {
+        if (x >= GetWidth() || y >= GetHeight())
+            return defaultValue;
+
+        return GetNum(x, y);
+    }
+
+    public double Trace()
+    {
+        if (GetWidth() != GetHeight())
+        {
+            throw new InvalidOperationException("Cannot run trace on non-square matrix");
+        }
+
+        double sum = 0;
+
+        for (int i = 0; i < GetWidth(); i++)
+        {
+            sum += GetNum(i, i);
+        }
+
+        return sum;
+    }
+
+    public Matrix Transpose()
+    {
+        double[,] result = new double[GetHeight(), GetWidth()];
+        // Transpose = to swap lines and columns
+        for (int iW = 0; iW < GetWidth(); iW++)
+        {
+            for (int iH = 0; iH < GetHeight(); iH++)
+            {
+                result[iH, iW] = GetNum(iW, iH);
+            }
+        }
+
+        return new Matrix(result);
+    }
+    
+    public static Matrix operator +(Matrix m1, Matrix m2)
+    {
+        int maxWidth = Math.Max(m1.GetWidth(), m2.GetWidth());
+        int maxHeight = Math.Max(m1.GetHeight(), m2.GetHeight());
+
+        double[,] result = new double[maxWidth, maxHeight];
+        for (int iH = 0; iH < maxHeight; iH++)
+        {
+            for (int iW = 0; iW < maxWidth; iW++)
+            {
+                result[iW, iH] = m1.GetNumOrDefault(iW, iH, 0) + m2.GetNumOrDefault(iW, iH, 0);
+            }
+        }
+
+        return new Matrix(result);
+    }
+    
+    public static Matrix operator *(Matrix m1, Matrix m2)
+    {
+        if (m1.GetWidth() != m2.GetHeight())
+        {
+            throw new ArgumentException("The width of the first matrix must be equal to the height of the other one");
+        }
+
+        int width = m2.GetWidth();
+        int height = m1.GetHeight();
+        
+        // sdílené číslo, 
+        int shared = m1.GetWidth(); // stejná jako m2.GetHeight()
+        
+        double[,] newMatrix = new double[width,height];
+
+        // Pro každý řádek m1 (row) a sloupec m2 (col) součet přes sdílený index k
+        for (int row = 0; row < m1.GetHeight(); row++)
+        {
+            for (int col = 0; col < m2.GetWidth(); col++)
+            {
+                double sum = 0;
+                
+                for (int k = 0; k < shared; k++)
+                {
+                    // GetNum(column, row)
+                    sum += m1.GetNum(k, row) * m2.GetNum(col, k);
+                }
+
+                newMatrix[col, row] = sum;
+            }
+        }
+
+        return new Matrix(newMatrix);
+    }
+}
+```
