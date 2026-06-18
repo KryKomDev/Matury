@@ -20,7 +20,9 @@ def get_markdown_title(file_path):
     return os.path.splitext(base)[0]
 
 def main():
-    inf_dir = '/home/kokulan/Projects/Matury/informatika'
+    # Get the project root directory relative to this script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    inf_dir = os.path.join(script_dir, '..', 'informatika')
     
     toc_content = []
     
@@ -42,12 +44,6 @@ def main():
                 # Escape double quotes in yaml titles if necessary
                 title_escaped = title.replace('"', '\\"')
                 okruhy_items.append(f'    - name: "{title_escaped}"\n      href: "okruhy/{file}"')
-            elif file.endswith('.html'):
-                # Handle HTML okruh if any (Základy číslicové techniky.html)
-                file_path = os.path.join(okruhy_dir, file)
-                # Simple name from file
-                title = os.path.splitext(file)[0]
-                okruhy_items.append(f'    - name: "{title}"\n      href: "okruhy/{file}"')
                 
     if okruhy_items:
         toc_content.append("- name: Okruhy")

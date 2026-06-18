@@ -2,12 +2,12 @@
 
 ## Zápisy
 
-- **obecný tvar**: $z= a + bi, \{a; b\} \in \mathbb{R}, i = \sqrt{-1}$ 
+- **obecný tvar**: $z= a + bi, \{a; b\} \in \mathbb{R}, i = \sqrt{-1}$
 - **goniometrický tvar**: $z = |z|(cos(\varphi) + i \cdot sin(\varphi))$
-    - $cos(\varphi) = \frac{a}{|z|}$ - potřeba dávat pozor, existuje více řešení
+  - $cos(\varphi) = \frac{a}{|z|} \land sin(\varphi) = \frac{b}{|z|}$
 
 > [!NOTE]
-> komplexní číslo lze interpretovat jako vektor v gaussově rovině, kde $a$ je 
+> komplexní číslo lze interpretovat jako vektor v gaussově rovině, kde $a$ je
 > velikost po ose $x$, a $b$ je velikost po ose $y$
 
 ## Operace

@@ -18,7 +18,6 @@
           "informatika/assets/**",
           "informatika/ulohy/texty/**",
           "informatika/ulohy/web/**",
-          "informatika/okruhy/Základy číslicové techniky.html",
           "gl.png"
         ],
         "exclude": [

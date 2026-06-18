@@ -4,5 +4,26 @@
 - name: Číselné obory
   href: ./ciselne-obory.md
 
+- name: Přímá a nepřímá úměrnost
+  href: ./prima-neprima-umera.md
+
+- name: Trojúhelníky
+  href: ./trojuhelnik.md
+
+- name: Čtyřúhelníky
+  href: ./ctyruhelnik.md
+
+- name: Mocniny a odmocniny
+  href: ./mocniny.md
+
+- name: Pythagorova věta
+  href: ./pythagorovka.md
+
+- name: Výrazy
+  href: ./vyrazy.md
+
+- name: Mnohočleny
+  href: ./mnohocleny.md
+
 - name: Komplexní čísla
   href: ./komplexni-cisla.md

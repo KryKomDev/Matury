@@ -52,7 +52,7 @@
     - name: "Základy SQL"
       href: "okruhy/Základy SQL.md"
     - name: "Základy číslicové techniky"
-      href: "okruhy/Základy číslicové techniky.html"
+      href: "okruhy/Základy číslicové techniky.md"
 
 - name: Úlohy
   items:
