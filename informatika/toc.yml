@@ -64,23 +64,23 @@
     - name: C#
       items:
         - name: "Databáze v C#"
-          href: "ulohy/csharp/databaze.md"
+          href: "ulohy/2026/csharp/databaze.md"
         - name: "Detekce kolizí základních 2D objektů"
-          href: "ulohy/csharp/detekce-kolizi-zakladnich-2d-objektu.md"
+          href: "ulohy/2026/csharp/detekce-kolizi-zakladnich-2d-objektu.md"
         - name: "Aproximace ludolfova čísla"
-          href: "ulohy/csharp/ludolfovo-cislo.md"
+          href: "ulohy/2026/csharp/ludolfovo-cislo.md"
         - name: "Matice"
-          href: "ulohy/csharp/matice.md"
+          href: "ulohy/2026/csharp/matice.md"
         - name: "Výpočet obsahu plochy pod grafem funkce"
-          href: "ulohy/csharp/obsah-pod-grafem.md"
+          href: "ulohy/2026/csharp/obsah-pod-grafem.md"
         - name: "Vektory"
-          href: "ulohy/csharp/vektory.md"
+          href: "ulohy/2026/csharp/vektory.md"
 
     - name: Web
       items:
         - name: "Implementace jednoduché 2D kamery"
-          href: "ulohy/web/2d kamera/info.md"
+          href: "ulohy/2026/web/2d kamera/info.md"
         - name: "Simulace šikmého vrhu"
-          href: "ulohy/web/sikmy vrh/info.md"
+          href: "ulohy/2026/web/sikmy vrh/info.md"
         - name: "Vykreslení modifikovatelného trojúhelníku"
-          href: "ulohy/web/trojuhelnik/info.md"
+          href: "ulohy/2026/web/trojuhelnik/info.md"

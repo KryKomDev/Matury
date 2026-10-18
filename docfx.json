@@ -16,8 +16,10 @@
         "files": [
           "images/**",
           "informatika/assets/**",
-          "informatika/ulohy/texty/**",
-          "informatika/ulohy/web/**",
+          "informatika/ulohy/2026/texty/**",
+          "informatika/ulohy/2026/web/**",
+          "informatika/ulohy/2026/*.pdf",
+          "informatika/okruhy/2027/zdroje/**",
           "gl.png"
         ],
         "exclude": [

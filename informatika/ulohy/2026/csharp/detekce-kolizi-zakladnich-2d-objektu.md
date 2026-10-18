@@ -1,6 +1,6 @@
 # Detekce kolizí základních 2D objektů
 
-Pomocný text: [Detekce kolizí základních 2D objektů](/informatika/ulohy/texty/Kolize%20z%C3%A1kladn%C3%ADch%202D%20objekt%C5%AF.pdf)
+Pomocný text: [Detekce kolizí základních 2D objektů](../texty/Kolize%20z%C3%A1kladn%C3%ADch%202D%20objekt%C5%AF.pdf)
 
 * k dispozici máme 2 druhy objektů:
     * kruh (Circle)
@@ -29,7 +29,7 @@ Pomocný text: [Detekce kolizí základních 2D objektů](/informatika/ulohy/tex
     }
 ```
 
-![kruhy.svg](../../assets/kruhy.svg)
+![kruhy.svg](../../../assets/kruhy.svg)
 
 Interaktivní demostrace: https://www.geogebra.org/m/zpwshfvj
 
@@ -60,7 +60,7 @@ součtu polovin jejich výšek.
 
 Dá se řešit i jednodušeji pomocí porovnání pozic rohů.
 
-![obdelniky.svg](../../assets/obedlniky.svg)
+![obdelniky.svg](../../../assets/obedlniky.svg)
 
 Interaktivní demonstrace: https://www.geogebra.org/m/r7qyyxpe
 

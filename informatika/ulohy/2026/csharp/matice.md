@@ -4,7 +4,7 @@ Nedodělaná úloha :O, takže si ji udělejte prosím sami. Když uděláte PR,
 
 Zadání: [strana 4](https://maturita.panjohnny.me/ulohy/typove_ulohy.pdf#page=4).
 
-Text: [Matice](/informatika/ulohy/texty/Matice.pdf).
+Text: [Matice](../texty/Matice.pdf).
 
 Ztratil jsem energii po implementaci Vektorů a za týden z tohoto maturuju :)))
 

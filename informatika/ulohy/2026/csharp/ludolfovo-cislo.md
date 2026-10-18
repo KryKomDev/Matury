@@ -1,6 +1,6 @@
 # Aproximace ludolfova čísla
 
-Pomocný text: [Eulerova metoda](/informatika/ulohy/texty/Eulerova%20metoda.pdf)
+Pomocný text: [Eulerova metoda](../texty/Eulerova%20metoda.pdf)
 
 ## 1. Úkol
 

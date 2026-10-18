@@ -1,6 +1,6 @@
 # Vektory
 
-Pomocný text: [Vektory](/informatika/ulohy/texty/Vektory.pdf)
+Pomocný text: [Vektory](../texty/Vektory.pdf)
 
 ## 1. Vytvořte třídu implementující 2D vektor s následujícími vlastnostmi
 - Operátor (binární) „+“ přetížen na sčítání vektorů.
