@@ -10,14 +10,18 @@ Měla by posloužit jako studijní materiál pro maturity.
 ## Předměty podle bloků
 
 ### Humanitní
-* [Společenské vědy](/humanitni/zsv/)
+
+* [Společenské vědy](humanitni/zsv/)
 
 ### Cizojazyčný
-* [Anglický jazyk](/cizojazycny/anglictina/)
+
+* [Anglický jazyk](cizojazycny/anglictina/)
 
 ### Přírodovědný
-* [Biologie](/prirodovedny/biologie/)
+
+* [Biologie](prirodovedny/biologie/)
 
 ### Matematicko-fyzikální
-* [Matematika](/matika/)
-* [Informatika](/informatika/)
+
+* [Matematika](matika/)
+* [Informatika](informatika/)
