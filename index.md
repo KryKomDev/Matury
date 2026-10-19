@@ -11,17 +11,17 @@ Měla by posloužit jako studijní materiál pro maturity.
 
 ### Humanitní
 
-* [Společenské vědy](humanitni/zsv/)
+* [Společenské vědy](./humanitni/zsv/index.md)
 
 ### Cizojazyčný
 
-* [Anglický jazyk](cizojazycny/anglictina/)
+* [Anglický jazyk](./cizojazycny/anglictina/index.md)
 
 ### Přírodovědný
 
-* [Biologie](prirodovedny/biologie/)
+* [Biologie](./prirodovedny/biologie/index.md)
 
 ### Matematicko-fyzikální
 
-* [Matematika](matika/)
-* [Informatika](informatika/)
+* [Matematika](./matika/index.md)
+* [Informatika](./informatika/index.md)
