@@ -1,0 +1,1 @@
+# Vektorová a rasterová grafika

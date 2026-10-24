@@ -56,8 +56,82 @@
 
 - name: Okruhy 2027
   items:
-    - name: "Fotografie"
-      href: "okruhy/2027/Fotografie.md"
+    - name: Základy informatiky
+      items:
+        - name: "Historie a technologie výpočetní techniky"
+          href: "okruhy/2027/Historie.md"
+        - name: "Informace a informační zdroje"
+          href: "okruhy/2027/Informace.md"
+
+    - name: Hardware a operační systémy
+      items:
+        - name: "Počítač a jeho komponenty"
+          href: "okruhy/2027/Komponenty.md"
+        - name: "Periferní zařízení"
+          href: "okruhy/2027/Periferie.md"
+        - name: "Operační systémy"
+          href: "okruhy/2027/Os.md"
+
+    - name: Reprezentace informací, sítě a bezpečnost
+      items:
+        - name: "Digitální reprezentace a přenos informací"
+          href: "okruhy/2027/Reprezentace-a-prenos.md"
+        - name: "Internet a jeho služby"
+          href: "okruhy/2027/Internet.md"
+        - name: "Struktura datových sítí a přenos dat"
+          href: "okruhy/2027/Site.md"
+        - name: "Bezpečnostní zásady a ochrana dat"
+          href: "okruhy/2027/Bezpecnost.md"
+
+    - name: Etika a právo
+      items:
+        - name: "Etické zásady a právní normy související s informatikou"
+          href: "okruhy/2027/Pravo.md"
+
+    - name: Algoritmizace a programování
+      items:
+        - name: "Algoritmizace"
+          href: "okruhy/2027/Algoritmizace.md"
+        - name: "Základní programové struktury"
+          href: "okruhy/2027/Programove-struktury.md"
+        - name: "Přehled způsobů tvorby programů"
+          href: "okruhy/2027/Tvorba-programu.md"
+        - name: "Syntaxe programovacího jazyka C#"
+          href: "okruhy/2027/CSharp.md"
+        - name: "Principy objektově orientovaného programování (OOP)"
+          href: "okruhy/2027/OOP.md"
+
+    - name: Databáze a kancelářské aplikace
+      items:
+        - name: "Používání a tvorba databází"
+          href: "okruhy/2027/Databaze.md"
+        - name: "Základy SQL"
+          href: "okruhy/2027/SQL.md"
+        - name: "Tabulkový procesor"
+          href: "okruhy/2027/Tabulky.md"
+        - name: "Zpracování textů"
+          href: "okruhy/2027/Text.md"
+
+    - name: Web, grafika a multimédia
+      items:
+        - name: "Tvorba webu"
+          href: "okruhy/2027/Web.md"
+        - name: "Vektorová a rastrová grafika"
+          href: "okruhy/2027/Grafika.md"
+        - name: "Počítačová 3D grafika"
+          href: "okruhy/2027/3D-grafika.md"
+        - name: "Multimédia"
+          href: "okruhy/2027/Multimedia.md"
+
+    - name: Moderní technologie
+      items:
+        - name: "Umělá inteligence"
+          href: "okruhy/2027/AI.md"
+
+    - name: Fotografování
+      items:
+        - name: "Fotografování"
+          href: "okruhy/2027/Fotografie.md"
 
 - name: Úlohy
   items:

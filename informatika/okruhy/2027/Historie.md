@@ -1,0 +1,1 @@
+# Historie a technologie výpočetní techniky

@@ -1,0 +1,1 @@
+# Bezpečnostní zsady a ochrana dat

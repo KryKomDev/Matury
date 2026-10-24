@@ -1,0 +1,1 @@
+# Digitální reprezentace a přenos informací

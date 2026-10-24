@@ -137,7 +137,7 @@
 
 ### Zrcadlovky vs. bezzrcadlovky
 
-```
+```text
 DSLR (Digitální zrcadlovka):
 Objektiv ──> Sklopné zrcátko (45°) ──[odraz nahoru]──> Matnice ──> Pětiboký hranol ──> Optický hledáček
                      │ (při expozici se zvedne)
@@ -242,7 +242,7 @@ Digitální snímač se skládá z milionů samostatných buněk (fotodiod), kte
   2. **Clona** (velikost otvoru, kterým světlo prochází)
   3. **Citlivost ISO** (míra zesílení signálu ze senzoru)
 
-```
+```text
                        [Expoziční čas]
                      (pohybová ostrost)
                             /\

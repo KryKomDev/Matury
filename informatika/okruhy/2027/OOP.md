@@ -1,0 +1,1 @@
+# Principy objektově orientovaného programovní (OOP)

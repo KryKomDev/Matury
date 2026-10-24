@@ -1,0 +1,1 @@
+# Etické zásady a právní normy související s informatikou 
