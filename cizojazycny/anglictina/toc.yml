@@ -1,2 +1,16 @@
 - name: Přehled
   href: index.md
+- name: The United Kingdom
+  href: UK.md
+- name: The Czech Republic
+  href: CR.md
+- name: Prague
+  href: Prague.md
+- name: Political Systems
+  href: Political-Systems.md
+- name: UK History
+  href: UK-History.md
+- name: Czech History
+  href: CR-History.md
+- name: UK Literature
+  href: UK-Literature.md
