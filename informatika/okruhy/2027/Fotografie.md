@@ -137,15 +137,13 @@
 
 ### Zrcadlovky vs. bezzrcadlovky
 
-```text
-DSLR (Digitální zrcadlovka):
-Objektiv ──> Sklopné zrcátko (45°) ──[odraz nahoru]──> Matnice ──> Pětiboký hranol ──> Optický hledáček
-                     │ (při expozici se zvedne)
-                     └──> Závěrka ──> Snímač (senzor)
+<div align="center">
 
-Bezzrcadlovka (EVF / SLR-like):
-Objektiv ──> Závěrka ──> Snímač (trvalý chod) ──[elektronika]──> Displej / EVF hledáček
-```
+![Schéma optické konstrukce zrcadlovky](../../assets/zrcadlovka.png)
+
+*Zdroj: [Paladix.cz](https://www.paladix.cz/wp-content/old-images/21221s.png)*
+
+</div>
 
 * **DSLR (Digital Single Lens Reflex) – digitální pravá jednooká zrcadlovka**:
   * Světlo prochází objektivem a odráží se od **sklopného zrcátka** nahoru na matnici a přes **optický hranol (pentaprism)** do **optického hledáčku**.
@@ -314,7 +312,7 @@ Digitální snímač se skládá z milionů samostatných buněk (fotodiod), kte
 
 ### 2. Clona a clonové číslo
 
-* **Clona**: irisový kruhový otvor proměnlivého průměru tvořený lamelami uvnitř objektivu.
+* **Clona**: zornicový kruhový otvor proměnlivého průměru tvořený lamelami uvnitř objektivu.
 * Množství procházejícího světla je úměrné **ploše kruhového otvoru** ($S = \pi r^2 = \pi \frac{D^2}{4}$).
   * Aby se plocha otvoru zdvojnásobila (propustila $2\times$ více světla), musí se průměr otvoru zvětšit $\sqrt{2} \approx \mathbf{1{,}414\times}$.
 * **Clonové číslo ($F$)**: poměr ohniskové vzdálenosti objektivu ($f$) k účinnému průměru vstupního otvoru clony ($D$):
@@ -323,7 +321,7 @@ Digitální snímač se skládá z milionů samostatných buněk (fotodiod), kte
   $$f/1{,}0 \quad f/1{,}4 \quad f/2{,}0 \quad f/2{,}8 \quad f/4{,}0 \quad f/5{,}6 \quad f/8 \quad f/11 \quad f/16 \quad f/22 \quad f/32$$
   * **Čím vyšší clonové číslo, tím menší otvor a méně světla!**
   * Přechod na nejbližší vyšší clonové číslo propustí přesně **polovinu světla** ($-1\text{ EV}$).
-* **Světelnost objektivu**: minimální clonové číslo, které objektiv umožňuje nastavit (plně otevřená clona).
+* **Světelnost objektivu**: nejmenší clonové číslo, které objektiv umožňuje nastavit (plně otevřená clona).
   * *Příklad*: objektiv $f = 200\text{ mm}$ se světelností $f/4$ má maximální průměr clony $D = \frac{200}{4} = \mathbf{50\text{ mm}}$.
   * U objektivu $f = 300\text{ mm}$ při cloně $f/4$ je průměr $D = \frac{300}{4} = \mathbf{75\text{ mm}}$.
   * U objektivu $f = 20\text{ mm}$ při cloně $f/4$ je průměr $D = \frac{20}{4} = \mathbf{5\text{ mm}}$.
@@ -428,9 +426,13 @@ Fotoaparáty měří **světlo odražené od fotografované scény** (vestavěn�
   * Paprsky z bodu, který leží před nebo za rovinou zaostření, se na senzoru neprotnou v bodě, ale vytvoří kužel světla dopadající jako **rozostřený kroužek (ploška)**.
   * Dokud je průměr tohoto kroužku menší než rozlišovací schopnost lidského oka na výsledné fotografii, vnímá oko tento bod jako **ostrý**.
 
-```
-Objekt mimo rovinu ──> Objektiv ──> Světelný kužel ──> Senzor ──> [Rozptylový kroužek CoC]
-```
+<div align="center">
+
+![Rozptylový kroužek](../../assets/rozptylovy_krouzek.svg.webp)
+
+zdroj: [Wikipedie](https://en.wikipedia.org/wiki/Circle_of_confusion#/media/File:Circles_of_confusion_lens_diagram.svg)
+
+</div>
 
 ### Definice hloubky ostrosti (DoF – Depth of Field)
 
